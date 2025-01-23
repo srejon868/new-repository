@@ -126,6 +126,22 @@ main>section{
 
        }
 /* main realated styles end */
+/* facts -style-containar start */
+.facts-containar{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+}
+.fact{
+          width: 241px;
+          height: 241px;
+          border: 1px solid #FF900E;
+          border-radius: 10px;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          padding-top: 25px;
+}
+/* facts-style-contaianr-end */
 
 @media screen and (max-width:576px) {
           .navbar, .nav-links ,.tems  {
