@@ -17,6 +17,15 @@
 .text-list-grey{
           color: #727272;
 }
+.btn_primary{
+          font-size: 20px;
+          font-weight: 500;
+          color: #FFFFFF;
+          background-color: #FF900E;
+          padding: 20px 25px;
+          border-radius: 1rem;
+}
+
 
  /* sherd-style end */
 
@@ -25,12 +34,17 @@
           background-color: rgba(255, 144, 14, 0.1);
  }
 
+
  /* heading-style-end */
 
  /* nav-ber-style start */
  .nav-item{
           list-style: none;
           
+ }
+ .band-name{
+          font-size:3rem;
+          font-weight: 700;
  }
  .nav-link{
           text-decoration: none;
@@ -40,6 +54,7 @@
  }
  .navbar{
           justify-content: space-between;
+          align-items: center;
  }
  .navbar,.banar{
           max-width: 1440px;
@@ -47,3 +62,29 @@
           
  }
  /* nav-ber-style end */
+ /* banar related style */
+ .banar-contant{
+          max-width: 850px;
+          margin: 0 auto;
+          text-align: center;
+          margin-bottom: 10px;
+
+ }
+ .banar-title{
+          font-weight: 700;
+          font-size:4rem ;
+ }
+.banr_description{
+          font-size: 1rem;
+          font-size: 400;
+}
+.banar-img{
+          width: 100%;
+}
+
+@media screen and (max-width:576px) {
+          .navbar, .nav-links{
+              flex-direction: column;
+          }
+          
+}
