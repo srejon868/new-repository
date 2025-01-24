@@ -126,6 +126,37 @@ main>section{
 
        }
 /* main realated styles end */
+/* Feature releted styles start */
+#feature-section-title{
+ border: 5px solid #FF900E;
+}
+
+.feature-card{
+   max-width: 586px;
+   padding: 30px;
+   box-shadow: 0 4px 30px 0 rgba(255, 255, 255, 1);
+   margin-bottom: 15px;
+   border-radius: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.feature-title{
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.feature-card-description{
+   font-size: 16px;
+   font-weight: 400;
+}
+.feature{
+   display: flex;
+   gap: 100px
+}
+
+/* Feature-releted styles end */
+
 /* facts -style-containar start */
 .facts-containar{
           display: grid;
