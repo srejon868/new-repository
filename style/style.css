@@ -154,6 +154,20 @@ main>section{
    display: flex;
    gap: 100px
 }
+#exprience-badge{
+   padding: 42px;
+   margin-top:-90px;
+   margin-left: -90px;
+   
+}
+#exprience-year{
+   font-size: 40px;
+   font-weight: 700;
+}
+.exprience{
+   font-size: 20px;
+   font-weight: 500;
+}
 
 /* Feature-releted styles end */
 
